@@ -1,0 +1,23 @@
+p{
+color: blue;
+font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+color: rgb(172, 53, 13);
+font-family: fantasy;
+text-align: center;
+}
+
+#intro {
+
+    color: rgb(43, 226, 131);
+    font-size: 20px;
+
+}
+
+#logo {
+
+    width: 150px;
+    border-radius: 10px;
+}

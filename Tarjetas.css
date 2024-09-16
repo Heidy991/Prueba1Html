@@ -1,1 +1,70 @@
-body
+body{
+    background-color: rgb(137, 190, 211); /* aplica color al fondo */
+    margin: 0; 
+
+}
+
+.container{
+    display: flex; /* organiza los hijos de forma flexible */
+    flex-direction: column; /* alinea los elementos en columna */
+    align-items: center; /* centra los articulos */
+    gap: 20px; /* genera el espacio entre los articulos */
+
+}
+
+section article{
+    transition: box-shadow o,3s ease; /* aplica una transición suave de 0,3 segundos */ 
+    background-color: #fff; /* establece color blanco */ 
+    margin: 16px 0; /* agregamaregn vertical en cada article */
+    border-radius: 8px; /* redondea las esquinas del articulo */
+    padding: 4px 0; /* hace ferencia a los espacios */
+    cursor: pointer; /* cambia el estilo del cursor */
+
+}
+
+/* el hover es un estilo que se aplica cuando el usurio pasa el cursor sobre el elemto */
+section article:hover{
+    box-shadow: 0 1.6px 6.4px rgba(34, 37, 37, 0.3); /* aplica estilo sombra sobre el elemento */
+
+}
+
+section article h2, section article p{
+    margin: 16px;
+
+}
+
+footer{
+    background-color: #333131;
+    padding: 48px;
+    color: #fff;
+}
+
+footer section{
+    float: right; /* hace que los elementos que tengo en el footer floten hacia la derecha */
+    margin: 0;
+}
+
+footer a{
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+  
+}
+
+footer a:hover{
+    color: brown;
+
+
+}
+
+header{
+    background-color: #382929;
+    padding: 1px;
+
+}
+
+header h1{
+    color: #fff;
+
+
+}
